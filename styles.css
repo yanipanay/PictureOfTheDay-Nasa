@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Oswald:wght@200;300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom, #a6a7ff, #9097e8, #7a87d2, #6577bc, #5167a6, #435a9a, #354e8d, #264281, #1a357b, #0f2874, #051b6c, #000b63);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #0f2874;
+}
+
+h2{
+    text-shadow: 2px 2px 4px #0f2874;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image{
+    flex-basis: 58%;
+    height: 100%;
+    min-width: 500px;
+}
+
+.image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.description{
+    flex-basis: 38%;
+    padding: 16px 24px;
+    min-width: 500px;
+}
+
+.searchInput, .searches{
+    padding: 24px;
+}
+
+.searchInput input{
+    color: #000b63;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #051b6c;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image of the day</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Picture of the day</h1></header>
+    <main>
+      <div id="container" class="container">
+        <div class="image">
+          <img
+            src="https://apod.nasa.gov/apod/image/2309/HarvestMoonNest.jpg"
+            alt=""
+            height="600 px"
+          />
+        </div>
+        <div class="description">
+          <h2>A Harvest Moon over Tuscany</h2>
+          <p>
+            For northern hemisphere dwellers, September's Full Moon was the
+            Harvest Moon. Reflect
+          </p>
+        </div>
+      </div>
+      <div class="searchInput">
+        <h2>Search for picture of the day</h2>
+        <span>Select a date</span>
+        <input type="date" id="dateInput" name="" id="" />
+        <button type="button" onclick="getImage()" id="searchbtn" value="">
+          Search
+        </button>
+      </div>
+      <div id="searches" class="searches"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
